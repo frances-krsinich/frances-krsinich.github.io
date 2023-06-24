@@ -34,10 +34,20 @@ div.transbox2 {
 div.transbox3 {
   margin: 60px;
   background-color: #ffffff;
-  border: 5px solid rgb(195, 84, 84);
+  /* border: 5px solid rgb(195, 84, 84); */
   opacity: 0.4;
   text-align: left;
   background: url('https://fitzala.com/wp-content/uploads/2020/06/gifs-running-hills.gif')
+    repeat-x scroll 0 0 transparent;
+}
+
+div.transbox4 {
+  margin: 60px;
+  background-color: #ffffff;
+  /* border: 5px solid rgb(195, 84, 84); */
+  opacity: 0.4;
+  text-align: left;
+  background: url('https://media.giphy.com/media/13pnwksUoSDyCs/giphy.gif')
     repeat-x scroll 0 0 transparent;
 }
 
@@ -65,7 +75,8 @@ div {
 }
 
 .para-text {
-  color: white;
+  color: rgb(112, 139, 161);
+  font-size: 50px;
 }
 
 #special-font {

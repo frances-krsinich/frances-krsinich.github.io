@@ -1,0 +1,87 @@
+body {
+  background-image: url(https://krsinich.files.wordpress.com/2020/07/1529954_1479073705692739_3103002798696430890_o.jpg?w=969&h=&zoom=2);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.responsive {
+  padding: 10 6px;
+  float: center;
+  width: 24.99999%;
+}
+div.container {
+  display: grid;
+  grid-template-columns: 220px 20px auto;
+  grid-template-rows: auto;
+}
+
+div.left {
+  grid-column-start: 1;
+  grid-column-end: 10;
+  grid-row-start: row1-start;
+  grid-row-end: 3;
+  background-color: Silver;
+  /* opacity: 0.5; */
+}
+
+div.right {
+  grid-column-start: 20;
+  grid-column-end: 40;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  background-color: Silver;
+  opacity: 0.5;
+}
+
+div.below {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+div.transbox2 {
+  margin: 60px;
+  border: 5px solid rgb(195, 84, 84);
+  opacity: 0.95;
+  /* background-image: src= './images/day1.jpg'; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div.transbox p {
+  margin: 10%;
+  font-weight: bold;
+  color: #000000;
+}
+
+h1 {
+  font-family: 'Courier New';
+  font-size: 85px;
+  color: rgb(158, 45, 54);
+}
+h2 {
+  font-family: 'Courier New';
+  font-size: 60px;
+  color: rgb(30, 65, 117);
+}
+p {
+  font-size: 40px;
+  color: rgb(30, 65, 117);
+}
+div {
+}
+
+.para-text {
+  color: white;
+  font-size: 60px;
+}
+
+#special-font {
+  font-family: 'Courier New';
+  font-size: 30px;
+  color: darkred;
+}
