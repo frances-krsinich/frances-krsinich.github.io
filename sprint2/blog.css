@@ -1,0 +1,75 @@
+body {
+  background-image: url(https://krsinich.files.wordpress.com/2020/07/67254912_2351372488462852_9011685287952121856_o.jpg?w=702&h=&zoom=2);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+div.background {
+  background: padding-box repeat;
+}
+
+div.transbox1 {
+  margin: 60px;
+  border: 5px solid rgb(195, 84, 84);
+  opacity: 0.4;
+  background-image: url(https://media1.tenor.com/images/c30d6490196742a193c2ed49a45e364b/tenor.gif?itemid=12740211);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div.transbox2 {
+  margin: 60px;
+  border: 5px solid rgb(195, 84, 84);
+  opacity: 0.8;
+  background-image: url(https://krsinich.files.wordpress.com/2020/07/11083613_1554247504842025_2628822551928368902_n.jpg?w=653&h=&zoom=2);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div.transbox3 {
+  margin: 60px;
+  background-color: #ffffff;
+  border: 5px solid rgb(195, 84, 84);
+  opacity: 0.4;
+  text-align: left;
+  background: url('https://fitzala.com/wp-content/uploads/2020/06/gifs-running-hills.gif')
+    repeat-x scroll 0 0 transparent;
+}
+
+div.transbox p {
+  margin: 10%;
+  font-weight: bold;
+  color: #000000;
+}
+
+h1 {
+  font-family: 'Courier New';
+  font-size: 80px;
+  color: rgb(158, 45, 54);
+}
+h2 {
+  font-family: 'Courier New';
+  font-size: 60px;
+  color: rgb(30, 65, 117);
+}
+p {
+  font-size: 40px;
+  color: rgb(30, 65, 117);
+}
+div {
+}
+
+.para-text {
+  color: white;
+}
+
+#special-font {
+  font-family: 'Courier New';
+  font-size: 30px;
+  color: darkred;
+}
