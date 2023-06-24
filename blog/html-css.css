@@ -1,0 +1,39 @@
+body {
+  background-image: url(https://krsinich.files.wordpress.com/2020/07/11024620_1542378022695640_1448782524197824145_n.jpg?w=541&h=&zoom=2);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+div.background {
+  background: padding-box repeat;
+}
+
+h1 {
+  font-family: 'Courier New';
+  font-size: 60px;
+  color: rgb(140, 8, 19);
+}
+h2 {
+  font-family: 'Courier New';
+  font-size: 40px;
+  color: rgb(30, 65, 117);
+}
+p {
+  font-size: 20px;
+  color: rgb(30, 65, 117);
+}
+div {
+}
+
+.para-text {
+  color: white;
+}
+
+#special-font {
+  font-family: 'Courier New';
+  font-size: 30px;
+  color: darkred;
+}
