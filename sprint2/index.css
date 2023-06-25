@@ -49,12 +49,12 @@ div.transbox p {
 
 h1 {
   font-family: 'Courier New';
-  font-size: 85px;
+  font-size: 80px;
   color: rgb(158, 45, 54);
 }
 h2 {
   font-family: 'Courier New';
-  font-size: 60px;
+  font-size: 50px;
   color: rgb(30, 65, 117);
 }
 p {
@@ -68,8 +68,9 @@ div {
   color: white;
 }
 
-#special-font {
+.special-font {
   font-family: 'Courier New';
   font-size: 30px;
   color: darkred;
+  font-weight: bold;
 }

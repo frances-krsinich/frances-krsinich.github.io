@@ -46,10 +46,12 @@ div.transbox2 {
   margin: 60px;
   border: 5px solid rgb(195, 84, 84);
   opacity: 0.95;
-  /* background-image: src= './images/day1.jpg'; */
+  background-image: url(https://krsinich.files.wordpress.com/2020/07/11115755_1554247428175366_1618518049149356207_n.jpg?w=562&h=&zoom=2);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 div.transbox p {
@@ -72,12 +74,14 @@ p {
   font-size: 40px;
   color: rgb(30, 65, 117);
 }
-div {
-}
 
 .para-text {
+  color: rgb(71, 13, 13);
+  font-size: 50px;
+}
+.desc {
   color: white;
-  font-size: 60px;
+  font-size: 30px;
 }
 
 #special-font {
