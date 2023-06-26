@@ -1,56 +1,22 @@
 <!DOCTYPE html>
-<html>
+
+<!-- an easy template for a blank HTML file is to type an exclamation mark, and choose the first option that comes up.
+It's a template which prepopulates a lot of things needed inside the head tag, except for the link tag which you'll have to add yourself -->
+
+
+
+<!-- it's important to set the lang for each of your HTML files, it's used by screen readers and search engines -->
+<html lang="en">
   <head>
+    <!-- you want to have these following meta rules, too -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- linking your CSS styling is important
+    you want to avoid inline styling in HTML
+   all styling should be in your CSS file -->
+    <link rel="stylesheet" href="styles/main.css">
     <title>Frances Krsinich</title>
-
-    <style>
-      body {
-       background-image: url(https://krsinich.files.wordpress.com/2023/05/img_4804.jpg?w=2048);
-                 alt= 'background image';
-       background-repeat: no-repeat;
-       background-attachment: fixed;
-      background-size: cover;
-
-       }
-
-       div.background {
-       background: url(klematis.jpg) repeat;
-       /* border: 2px solid black; */
-       }
-
-       div.transbox {
-         margin: 60px;
-         background-color: #ffffff;
-         border: 5px solid rgb(195, 84, 84);
-         opacity: 0.5;
-       }
-
-       div.transbox p {
-         margin: 10%;
-         font-weight: bold;
-         color: #000000;
-       }
-    </style>
-    <style>
-      h1 {
-        text-align: center;
-        font-family: 'Courier New';
-        font-size: 50px;
-        color: red;
-      }
-      h2 {
-        text-align: center;
-        font-family: 'Courier New';
-        font-size: 30px;
-        color: black;
-      }
-      p {
-        text-align: center;
-      }
-      div {
-        text-align: center;
-      }
-    </style>
   </head>
   <body>
     <div class="background">
@@ -62,11 +28,11 @@
     <div>
       <div class="background">
         <div class="transbox">
-          <img
+          <!-- <img
             class="image-1"
             src="https://media1.tenor.com/images/c30d6490196742a193c2ed49a45e364b/tenor.gif?itemid=12740211"
             alt="workerdancing"
-          />
+          /> -->
         </div>
       </div>
     </div>
@@ -77,5 +43,77 @@
         <p>here's where the links will be</p>
       </div>
     </div>
+
+    <div class="background">
+      <div class="transbox2">
+        <p class="para-text">dancing around and smashing it!!</p>
+        <h2>and linking to stuff <a href="/blog/te-houtaewa-template.html">here</a> for you</h2>
+        <p class="special-font">
+          then crawling along slowly like an old guy...
+        </p>
+      </div>
+    </div>
+
+    <div>
+      <div class="background">
+        <div class="transbox3">
+          <img
+            class="image-2"
+            src="https://media3.giphy.com/media/LWBkgGLVvDBJK/200.gif"
+            alt="crawlingman"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="transbox2">
+      <h2>blog blog blog blog blog blog</h2>
+      <p>
+        getting up early in the
+        <a href="/blog/morning.html" class="para-text"> morning </a>
+      </p>
+
+      <p>
+        <a href="/blog/html-css.html" class="para-text"> find out about </a>
+        when to use class versus id
+      </p>
+
+      <p>
+        Te Houtaewa
+        <a href="blog/te-houtaewa-template.html" class="para-text"> story </a>
+      </p>
+      <p class="para-text2">
+        <a href="blog/identity-values.html" class="para-text">
+          identity, strengths and values
+        </a>
+      </p>
+      <p class="para-text">
+        <a href="blog/learning-plan.html" class="para-text">
+          learning plan
+        </a>
+      </p>
+    </div>
+
+    <div>
+      <a href="index.html" class="para-text2"> home again </a>
+      <br />
+      <a href="https://handbook.eda.nz/" class="para-text2">
+        and here's the student handbook
+      </a>
+    </div>
+
+    <div>
+      <div class="background">
+        <div class="transbox4">
+          <img
+            class="image-2"
+            src="https://media.giphy.com/media/13pnwksUoSDyCs/giphy.gif"
+            alt="fallingoffcliff"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   </body>
 </html>
