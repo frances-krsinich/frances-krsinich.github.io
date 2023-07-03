@@ -7,8 +7,8 @@ h1 {
 }
 h2 {
   font-family: 'Courier New';
-  font-size: 30px;
-  color: rgb(14, 14, 53);
+  font-size: 40px;
+  color: darkblue;
   margin: 20px;
 }
 p {
@@ -36,4 +36,14 @@ div.transbox {
 
 div.background {
   background: padding-box repeat;
+}
+
+.bounding-box {
+  background-image: url(...);
+  background-size: contain;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50%;
+  width: 50%;
 }
