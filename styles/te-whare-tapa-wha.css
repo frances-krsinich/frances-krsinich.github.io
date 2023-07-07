@@ -1,14 +1,5 @@
 body {
-  background-image: url(https://krsinich.files.wordpress.com/2023/05/img_4804.jpg?w=2048);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  text-align: center;
-  font-family: 'Oswald', sans-serif;
-}
-
-.body2 {
-  background-image: url(https://krsinich.files.wordpress.com/2020/07/115988602_600219414222267_2082599258003563822_n.jpg?w=699&h=&zoom=2);
+  background-image: url(https://krsinich.files.wordpress.com/2020/07/115988602_600219414222267_2082599258003563822_n.jpg?w=2800&h=);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -53,7 +44,7 @@ div.transbox3 {
 div.transbox4 {
   margin: 60px;
   border: 5px solid rgb(195, 84, 84);
-  opacity: 0.9;
+  opacity: 1;
   background-image: url(https://krsinich.files.wordpress.com/2020/07/12291953_1633814736885301_7018347499243035160_o.jpg?w=495&h=&zoom=2);
   background-repeat: no-repeat;
   background-attachment: fixed;
